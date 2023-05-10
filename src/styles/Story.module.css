@@ -1,0 +1,40 @@
+.story {
+  min-height: 200px;
+  background-color: rgb(234, 230, 230);
+  margin: 10px 0px;
+  cursor: pointer;
+  box-shadow: 4px 4px rgba(20,20,10,0.5);
+  font-size: 17px;
+  font-family: sans-serif;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.title {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.description {
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    bottom: 75px;
+}
+
+.points {
+    position: absolute;
+    font-size: 15px;
+    bottom: 10px;
+    color: maroon;
+    font-weight: 600;
+}
+
+.toggle {
+    display: none;
+}

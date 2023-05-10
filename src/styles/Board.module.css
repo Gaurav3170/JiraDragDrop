@@ -1,0 +1,29 @@
+.board {
+  border: 1px solid black;
+  min-width: 20%;
+  max-width: 28%;
+  height: 90vh;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  overflow-y: scroll;
+}
+
+.board:nth-child(odd) {
+    background-color: rgba(100,10,100,0.2);
+}
+
+.board:nth-child(even){
+    background-color: rgba(10,10,100,0.2);
+}
+
+hr {
+    height: 5px;
+    background-color: rgba(200,200,200,0.3);
+}
+
+.borderDragOver {
+    border: 4px dashed green;
+}
